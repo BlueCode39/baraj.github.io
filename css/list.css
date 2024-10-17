@@ -1,0 +1,100 @@
+ul.cicle {
+    list-style-type: circle;
+}
+
+ul.squer {
+    list-style-type: square;
+}
+
+ul.upromen {
+    list-style-type: upper-roman;
+}
+
+ul.loweralphamen {
+    list-style-type: lower-alpha;
+}
+
+ul.remov {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* horizontal nav menu */
+
+.horizontal {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: #333;
+}
+
+.horizontal li {
+    margin: 10px
+}
+
+.horizontal li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: block;
+}
+
+.horizontal li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+.vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color: #222;
+}
+
+.vertical li {
+    border-bottom: 1px solid #333;
+}
+
+.vertical li a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #222;
+}
+
+.vertical li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* list style position */
+
+.outside li {
+    list-style-position: outside;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.inside li {
+    list-style-position: inside;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* IMG STYKLE */
+.img {
+    list-style-image: url(soft-drink.png);
+}
+
+/* list-style */
+.list-style {
+    list-style: square inside url(soft-drink.png);
+}

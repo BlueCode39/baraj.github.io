@@ -1,0 +1,41 @@
+.visible {
+    background-color: #ff00ff;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    overflow: visible;
+}
+
+.hidden {
+    margin: 20px 0px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.scroll {
+    margin: 20px 0px;
+    background-color: blue;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+}
+
+.auto {
+    margin: 20px 0px;
+    background-color: skyblue;
+    width: 200px;
+    height: 80px;
+    overflow: auto;
+}
+
+.overflow-y-x {
+    background-color: coral;
+    width: 200px; 
+    height: 65px;
+    border: 1px solid black; 
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}

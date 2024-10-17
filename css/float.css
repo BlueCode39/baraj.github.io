@@ -1,0 +1,110 @@
+/* Float right */
+
+.floatR {
+    float: right;
+    width: 300px;
+}
+
+/* Float left */
+
+.floatL {
+    float: left;
+    width: 300px;
+}
+
+/* Clear Both */
+
+.ClirBoth {
+    clear: both;
+    width: 250px;
+}
+
+/* Clear Fix */ 
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.flutl {
+    width: 150px;
+    height: 250px;
+    background-color: lightblue;
+    float: left;
+}
+
+.flutr {
+    width: 150px;
+    height: 250px;
+    background-color: lightcoral;
+    float: right;
+}
+
+/* Navigation */
+
+ul.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation li {
+    float: right;
+}
+
+ul.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation li a:hover {
+    background-color: #111;
+}
+
+/* simple layout */
+.container {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.yes {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    float: none;
+    padding: 128px;
+}
+
+.lol {
+    list-style-type: none;
+}
+
+.lol li {
+    float: none;
+}
+
+.yes:hover {
+    background-image: url(yey.png);
+    color: white;
+
+}

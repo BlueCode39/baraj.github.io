@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: rgb(234, 234, 234);
+            text-align: center;
+        }
+
+        .MAIN {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+
+        @media screen and (min-widht: 1px;) and (max-widht: 999px;) {
+            .main-container {
+                display: block;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            .main-container {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        img {
+            width: auto;
+            height: 300px;
+            border-radius: 7px;
+        }
+
+        .card {
+            display: block;
+            padding: 15px;
+            background-color: white;
+            width: fit-content;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .name {
+            float: left;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+        }
+
+        .price {
+            float: right;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .category {
+            text-align: left;
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+        .category p {
+            color: grey;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Hesenn'z Cool Shoezz</h1>
+
+    <div class="MAIN">
+    
+    <div class="main-container">
+
+        <div class="card">
+            <div class="item">
+                <img src="redshoe.png" alt="">
+            </div>
+
+            <div class="namenprice">
+                <div class="name">
+                    <p>A Very Cool Red Shoes</p>
+                </div>
+                <div class="price">
+                    <p>$210</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <p>Men's Shoes</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item">
+                <img src="whiteshoe.png" alt="">
+            </div>
+            <div class="namenprice">
+                <div class="name">
+                    <p>A Very Cool White Shoes</p>
+                </div>
+                <div class="price">
+                    <p>$330</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <p>Men's Shoes</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item">
+                <img src="blushoe.png" alt="">
+            </div>
+            <div class="namenprice">
+                <div class="name">
+                    <p>A Very Cool Blue Shoes</p>
+                </div>
+                <div class="price">
+                    <p>$110</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <p>Men's Shoes</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    -webkit-text-stroke: 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgb(150,150,150);
+    background: radial-gradient(circle, rgba(150,150,150,1) 0%, rgba(0,0,0,1) 100%);
+    font-size: 70px;
+    padding: 10px;
+}
+
+.juudul {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 5px;
+    background-color: rgb(236, 102, 102);
+}
+
+.juudul2 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 5px;
+    background-color: rgb(255, 191, 0);
+}
+
+.juudul3 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 5px;
+    background-color: rgb(46, 173, 252);
+    margin-bottom: 26px;
+}
+
+.ordered {
+    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    margin: 10px;
+    border-bottom: solid 10px rgb(236, 102, 102);
+}
+
+.lis {
+    border-radius: 10px;
+    text-align: left;
+    padding-right: 30px;
+    font-size: large;
+    background-color: white;
+}
+
+.lis li {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.grey {
+    background-color: rgb(230, 230, 230);
+}
+
+h2 {
+    color: white;
+}
+
+.unordered {
+    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    border-bottom: solid 10px rgb(255, 191, 0);
+}
+
+.desc {
+    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    border-bottom: solid 10px rgb(46, 173, 252);
+}
+
+.ey {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lol li {
+    padding: 10px;
+}
+
+.block {
+    padding-top: 10px;
+    height: 80px;
+    list-style-type: square;
+}
+.circle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 80px;
+    border-top: solid 2px rgb(255, 191, 0);
+    border-bottom: solid 2px rgb(255, 191, 0);
+    list-style-type: circle;
+    background-color: rgb(233, 233, 233);
+}
+.Disc {
+    padding-top: 10px;
+    height: 80px;
+    list-style-type: disc;
+}
+
+.desdiv {
+    text-align: left;
+}
+
+.dd {
+    margin-bottom: 40px;
+}
+
+dl {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dt {
+    text-indent: 40px;
+    color: red;
+}
+
+

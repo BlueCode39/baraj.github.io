@@ -1,0 +1,115 @@
+body {
+
+    padding: 20px;
+}
+
+.RKiri {
+    text-align: left;
+}
+
+.RKanan {
+    text-align: right;
+}
+
+.RTengah {
+    text-align: center;
+}
+
+.Justify {
+    text-align: justify;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.deleted {
+    text-align: center;
+    text-decoration: none;
+}
+
+.upperline {
+    text-align: center;
+    text-decoration: overline wavy blue;
+}
+
+.underline {
+    text-align: center;
+    text-decoration: underline blueviolet;
+}
+
+.strike {
+    text-align: center;
+    text-decoration: line-through yellow;
+}
+
+.capital {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.uppercase {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.lowercase {
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+.small {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+}
+
+.es {
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.line-height {
+    line-height: 1.6;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.indent {
+    text-indent: 2em;
+    background-color: darkcyan;
+    color: white;
+}
+
+.nowrap {
+   white-space: nowrap;
+   background-color: darkred;
+   color: white;
+}
+
+.word-spacing {
+    word-spacing: 4px;
+    letter-spacing: 14px;  
+    background-color: darkblue;
+    color: white;
+}
+
+.text-overflow {
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-shadow {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 5px 6px black;
+}

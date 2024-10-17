@@ -1,0 +1,69 @@
+/* eweweweweewewewe dis iskjnjncjkskskjnds */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+}
+/* who dis */
+.bg-yellow {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: yellow;
+}
+/* wha */
+#header {
+    padding: 20px;
+    background: grey;
+}
+/* wanna break from the ads */
+input[type="text"] {
+    background: rgb(80, 198, 57); 
+}
+/* ror~ */
+p, div {
+    color: red;
+}
+
+.au-dah {
+    color: white;
+}
+
+.pinkyy {
+    color: black;
+    background-color: pink;
+    padding: 10px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.whaat {
+    color: white;
+}
+
+#hidier {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+a:hover {
+    color: green;
+}
+
+.loli {
+    color: darkcyan;
+}
+
+.loli::first-line {
+    color: magenta;
+}

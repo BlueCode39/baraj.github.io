@@ -1,0 +1,20 @@
+.contener {
+    height: 500vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.naviggation {
+    list-style-type: none;
+    top: 200px;
+    position: fixed;
+    height: fit-content;
+}

@@ -1,0 +1,91 @@
+.red {
+    color: red;
+    display: inline;
+    padding: 0px;
+}
+
+.blueg {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subheading {
+    padding-left: 30px;
+}
+
+span {
+    padding: 10px;
+    display: block;
+}
+
+#bok1 {
+    padding: 5px;
+    display: inline-block;
+    background-color: peachpuff;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+#bok2 {
+    padding: 5px;
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.sus {
+    display: block;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nsus {
+    display: inline;
+    background-color: rgb(18, 157, 157);
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.boknon1 {
+    display: block;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.boknon2 {
+    display: none;
+    background-color: coral;
+    padding: 20px;
+}
+
+#hidden {
+    visibility: hidden;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    padding: 100px;
+}
+
+#none {
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 100px;
+    padding: 100px;
+}
