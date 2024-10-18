@@ -9,6 +9,9 @@
     box-shadow: 1px 16px 23px -8px rgba(0,150,200,0.48);
     -webkit-box-shadow: 1px 16px 23px -8px rgba(0,150,200,0.48);
     -moz-box-shadow: 1px 16px 23px -8px rgba(0,150,200,0.48);
+    position: sticky;
+    top: 5px;
+    border-radius: 20px;
 }
 
 .yes {
