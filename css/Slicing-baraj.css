@@ -492,6 +492,7 @@ body {
 }
 
 .submit-form button:hover {
+    cursor: pointer;
     background-color: white;
     color: rgb(0, 150, 200);
 }
